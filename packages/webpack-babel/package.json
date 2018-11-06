@@ -1,0 +1,22 @@
+{
+  "name": "build-tools-webpack-babel",
+  "version": "1.0.1",
+  "description": "Configurations to use babel with webpack",
+  "main": "./index.js",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-build-tools.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "dependencies": {
+    "babel-loader": "~8.0.4"
+  }
+}

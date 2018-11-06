@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "adidas-env/node",
+    "adidas-es7"
+  ],
+  "rules": {
+    "no-console": "off"
+  }
+}

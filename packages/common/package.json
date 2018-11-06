@@ -1,0 +1,22 @@
+{
+  "name": "build-tools-common",
+  "version": "1.0.1",
+  "description": "Add common usage tools",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-build-tools.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "dependencies": {
+    "cross-env": "~5.2.0",
+    "rimraf": "~2.6.2"
+  }
+}

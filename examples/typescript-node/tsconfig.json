@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/build-tools-typescript/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

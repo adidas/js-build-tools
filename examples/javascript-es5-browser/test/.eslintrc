@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "../.eslintrc",
+    "adidas-env/test"
+  ],
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "Mathematics": true
+  }
+}

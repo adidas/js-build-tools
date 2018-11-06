@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="/dist/main.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <custom-component></custom-component>
+    </div>
+    <script>
+      new Vue({
+        el: '#root',
+        components: {
+          CustomComponent: vueComponents.CustomComponent
+        }
+      });
+    </script>
+  </body>
+</html>

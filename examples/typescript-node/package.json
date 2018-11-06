@@ -1,0 +1,16 @@
+{
+  "name": "typescript-node",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.js",
+    "clean": "rimraf dist && rimraf test/results",
+    "all": "npm run clean && npm run build && npm run test"
+  },
+  "devDependencies": {
+    "build-tools-common": "~1.0.0",
+    "build-tools-jest": "~1.0.0",
+    "build-tools-typescript": "~1.0.0",
+    "build-tools-typescript-jest": "~1.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.npmrc
+.sonar
+.stryker*
+*.diff
+*.log
+*.orig
+*.patch
+*.sublime-*
+**/.nyc_output
+**/coverage
+**/dist
+**/docs
+**/test/results
+examples/**/package-lock.json
+node_modules

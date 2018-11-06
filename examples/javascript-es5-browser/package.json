@@ -1,0 +1,15 @@
+{
+  "name": "javascript-es5-browser",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/**/*.js test/specs/**/*.js",
+    "doc": "jsdoc -r -R ./README.md -d docs -c ./jsdoc.config.js src/",
+    "test": "jest --config jest.config.js",
+    "clean": "rimraf dist && rimraf coverage",
+    "all": "npm run clean && npm run lint && npm run test && npm run doc"
+  },
+  "devDependencies": {
+    "build-tools-javascript": "~1.0.0",
+    "build-tools-jest": "~1.0.0"
+  }
+}

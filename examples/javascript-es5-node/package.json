@@ -1,0 +1,14 @@
+{
+  "name": "javascript-es5-node",
+  "private": true,
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "clean": "rimraf test/results",
+    "all": "npm run clean && npm run test"
+  },
+  "devDependencies": {
+    "build-tools-common": "~1.0.0",
+    "build-tools-javascript": "~1.0.0",
+    "build-tools-jest": "~1.0.0"
+  }
+}

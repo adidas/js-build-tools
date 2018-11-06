@@ -1,0 +1,23 @@
+{
+  "name": "build-tools-typescript-jest",
+  "version": "1.0.1",
+  "description": "Configurations to use jest with typescript",
+  "main": "./jest-preset.js",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-build-tools.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "dependencies": {
+    "@types/jest": "~23.3.5",
+    "ts-jest": "~23.10.4"
+  }
+}

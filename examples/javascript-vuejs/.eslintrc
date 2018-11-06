@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "adidas-env/browser",
+    "adidas-es6",
+    "adidas-vue"
+  ]
+}

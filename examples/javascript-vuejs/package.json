@@ -1,0 +1,26 @@
+{
+  "name": "javascript-vuejs",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --open --hot",
+    "lint": "eslint --ext .js,.vue src",
+    "clean": "rimraf dist",
+    "all": "npm run clean && npm run build && npm run lint"
+  },
+  "dependencies": {
+    "vue": "~2.5.17"
+  },
+  "devDependencies": {
+    "build-tools-babel": "~1.0.0",
+    "build-tools-common": "~1.0.0",
+    "build-tools-javascript": "~1.0.0",
+    "build-tools-webpack": "~1.0.0",
+    "build-tools-webpack-babel": "~1.0.0",
+    "build-tools-webpack-files": "~1.0.0",
+    "build-tools-webpack-sass": "~1.0.0",
+    "build-tools-webpack-vue": "~1.0.0",
+    "eslint-config-adidas-vue": "~1.1.0",
+    "eslint-plugin-vue": "~5.0.0 || 5.0.0-beta.3"
+  }
+}

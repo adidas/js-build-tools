@@ -1,0 +1,19 @@
+{
+  "name": "typescript-browser",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "jest --config jest.config.js",
+    "doc": "typedoc --out docs",
+    "clean": "rimraf dist && rimraf test/results && rimraf docs",
+    "all": "npm run clean && npm run build && npm run doc && npm run test"
+  },
+  "devDependencies": {
+    "build-tools-common": "~1.0.0",
+    "build-tools-jest": "~1.0.0",
+    "build-tools-typescript": "~1.0.0",
+    "build-tools-typescript-jest": "~1.0.0",
+    "build-tools-webpack": "~1.0.0",
+    "build-tools-webpack-typescript": "~1.0.0"
+  }
+}

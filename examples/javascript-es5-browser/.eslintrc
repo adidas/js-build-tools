@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "adidas-es5",
+    "adidas-env/browser"
+  ],
+  "rules": {
+    "no-var": "off",
+    "one-var": ["error", {
+      "initialized": "never",
+      "uninitialized": "always"
+    }],
+    "prefer-arrow-callback": "off",
+    "prefer-rest-params": "off"
+  }
+}

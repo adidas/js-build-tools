@@ -1,0 +1,14 @@
+{
+  "name": "less-extract",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "clean": "rimraf dist",
+    "all": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "build-tools-common": "~1.0.0",
+    "build-tools-webpack": "~1.0.0",
+    "build-tools-webpack-less": "~1.0.0"
+  }
+}

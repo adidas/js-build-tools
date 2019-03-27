@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "build-tools-common": "~1.0.0",
-    "build-tools-jest": "~1.0.0",
-    "build-tools-typescript": "~1.0.0",
-    "build-tools-typescript-jest": "~1.0.0"
+    "build-tools-jest": "~1.1.0",
+    "build-tools-typescript": "~1.1.0",
+    "build-tools-typescript-jest": "~1.1.0"
   }
 }

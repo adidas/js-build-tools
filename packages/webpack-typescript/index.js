@@ -12,5 +12,5 @@ const rules = [
 
 module.exports = {
   rules,
-  extensions: [ '.ts', '.tsx' ]
+  extensions: [ '.js', '.jsx', '.ts', '.tsx' ]
 };

@@ -1,6 +1,6 @@
 {
   "name": "build-tools-webpack-typescript",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Configurations to use webpack with typescript",
   "main": "./index.js",
   "license": "MIT",
@@ -17,6 +17,6 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "ts-loader": "~3.5.0"
+    "ts-loader": "~5.3.3"
   }
 }

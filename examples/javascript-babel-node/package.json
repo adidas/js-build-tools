@@ -8,11 +8,10 @@
     "all": "npm run clean && npm run build && npm run test"
   },
   "devDependencies": {
-    "babel-jest": "~23.6.0",
-    "build-tools-babel": "~1.0.0",
-    "build-tools-babel-jest": "~1.0.0",
+    "build-tools-babel": "~1.1.0",
+    "build-tools-babel-jest": "~1.1.0",
     "build-tools-common": "~1.0.0",
-    "build-tools-javascript": "~1.0.0",
-    "build-tools-jest": "~1.0.0"
+    "build-tools-javascript": "~1.1.0",
+    "build-tools-jest": "~1.1.0"
   }
 }

@@ -1,3 +1,5 @@
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+
 module.exports = {
   rules: [
     {
@@ -20,5 +22,6 @@ module.exports = {
   ],
   alias: {
     vue$: 'vue/dist/vue.esm.js'
-  }
+  },
+  plugin: new VueLoaderPlugin()
 };

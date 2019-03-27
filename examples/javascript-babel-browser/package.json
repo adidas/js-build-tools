@@ -3,17 +3,18 @@
   "private": true,
   "scripts": {
     "build": "webpack",
+    "dev": "webpack-dev-server --open --hot",
     "test": "jest --config jest.config.js",
     "clean": "rimraf dist && rimraf test/results",
     "all": "npm run clean && npm run build && npm run test"
   },
   "devDependencies": {
-    "build-tools-babel": "~1.0.0",
-    "build-tools-babel-jest": "~1.0.0",
+    "build-tools-babel": "~1.1.0",
+    "build-tools-babel-jest": "~1.1.0",
     "build-tools-common": "~1.0.0",
-    "build-tools-javascript": "~1.0.0",
-    "build-tools-jest": "~1.0.0",
-    "build-tools-webpack": "~1.0.0",
+    "build-tools-javascript": "~1.1.0",
+    "build-tools-jest": "~1.1.0",
+    "build-tools-webpack": "~1.1.0",
     "build-tools-webpack-babel": "~1.0.0"
   }
 }

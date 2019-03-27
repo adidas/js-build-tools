@@ -1,15 +1,11 @@
 module.exports = {
   rules: [
     {
-      test: /\.less$/,
+      test: /\.(le|c)ss$/,
       use: [
-        {
-          loader: 'style-loader'
-        }, {
-          loader: 'css-loader'
-        }, {
-          loader: 'less-loader'
-        }
+        'style-loader',
+        'css-loader',
+        'less-loader'
       ]
     }
   ]

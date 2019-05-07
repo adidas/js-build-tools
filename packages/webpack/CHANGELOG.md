@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Updated webpack to v4.30 and webpack-dev-server to v3.3.
+
 # 1.1.0
 
 - Added webpack-cli dependency.

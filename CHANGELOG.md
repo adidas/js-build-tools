@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Updated webpack package dependencies.
+
 ## 1.0.2
 
 - Updated dependencies.

@@ -1,3 +1,8 @@
+## 1.0.4
+
+- Replaced TSLint with ESLint TypeScript.
+- Updated ESLint dependencies.
+
 ## 1.0.3
 
 - Updated webpack package dependencies.

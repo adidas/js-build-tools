@@ -5,15 +5,16 @@
     "build": "webpack",
     "dev": "webpack-dev-server --open --hot",
     "test": "jest --config jest.config.js",
+    "lint": "eslint --ext .ts src/",
     "doc": "typedoc --out docs",
     "clean": "rimraf dist && rimraf test/results && rimraf docs",
-    "all": "npm run clean && npm run build && npm run doc && npm run test"
+    "all": "npm run clean && npm run build && npm run lint && npm run doc && npm run test"
   },
   "devDependencies": {
     "build-tools-common": "~1.0.0",
     "build-tools-jest": "~1.1.0",
-    "build-tools-typescript": "~1.1.0",
-    "build-tools-typescript-jest": "~1.1.0",
+    "build-tools-typescript": "~1.2.0",
+    "build-tools-typescript-jest": "~1.1.1",
     "build-tools-webpack": "~1.1.0",
     "build-tools-webpack-typescript": "~1.1.0"
   }

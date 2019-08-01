@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Updated TSJest dependencies.
+
 # 1.1.0
 
 - Updated typescript jest bindings.

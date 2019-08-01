@@ -1,6 +1,6 @@
 {
   "name": "build-tools-typescript",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Configurations to use typescript",
   "main": "./tsconfig.json",
   "license": "MIT",
@@ -17,9 +17,11 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "tslint": "~5.14.0",
-    "tslint-config-adidas": "~1.0.1",
-    "typedoc": "~0.14.2",
+    "eslint-config-adidas-typescript": "~1.0.0",
+    "eslint": "~5.16.0",
+    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-promise": "~4.2.1",
+    "typedoc": "~0.15.0",
     "typescript": "~3.3.4000"
   }
 }

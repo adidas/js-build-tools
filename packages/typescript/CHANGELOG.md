@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Replaced TSLint with ESLint TypeScript.
+
 # 1.1.0
 
 - Updated typescript to v3.3.

@@ -1,6 +1,6 @@
 {
   "name": "js-build-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "adidas configurations for JavaScript tooling",
   "license": "MIT",
   "contributors": [
@@ -16,7 +16,8 @@
     "npm": ">= 5"
   },
   "scripts": {
-    "lerna:bootstrap": "lerna bootstrap",
+    "setup": "npm run lerna:bootstrap",
+    "lerna:bootstrap": "lerna init && lerna bootstrap",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- node \\$LERNA_ROOT_PATH/scripts/publish.js",
     "reinstall:examples": "node scripts/reinstall-examples",

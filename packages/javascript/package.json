@@ -1,6 +1,6 @@
 {
   "name": "build-tools-javascript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Configurations to use javascript tooling",
   "license": "MIT",
   "contributors": [
@@ -16,13 +16,13 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "eslint": "~5.15.3",
+    "eslint": "~5.16.0",
     "eslint-config-adidas-env": "~1.1.0",
     "eslint-config-adidas-es9": "~1.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
     "ink-docstrap": "~1.3.2",
-    "jsdoc": "~3.5.5"
+    "jsdoc": "~3.6.3"
   },
   "files": [
     "jsdoc.config.js"

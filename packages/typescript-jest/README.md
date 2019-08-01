@@ -19,7 +19,7 @@ Extend your jest configuration with `build-tools-typescript-jest`
 ```javascript
 // jest.config.js
 module.exports = {
-  ...require('build-tools-jest')
+  ...require('build-tools-jest'),
   ...require('build-tools-typescript-jest')
 };
 ```

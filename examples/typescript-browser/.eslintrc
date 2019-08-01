@@ -1,0 +1,6 @@
+{
+  "extends": "adidas-typescript",
+  "parserOptions": {
+    "tsconfigRootDir": "."
+  }
+}

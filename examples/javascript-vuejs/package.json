@@ -14,7 +14,7 @@
   "devDependencies": {
     "build-tools-babel": "~1.1.0",
     "build-tools-common": "~1.0.0",
-    "build-tools-javascript": "~1.1.0",
+    "build-tools-javascript": "~1.1.1",
     "build-tools-webpack": "~1.1.0",
     "build-tools-webpack-babel": "~1.0.0",
     "build-tools-webpack-files": "~1.1.0",

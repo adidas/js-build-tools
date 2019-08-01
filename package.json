@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "chalk": "2.4.1",
-    "eslint": "5.15.3",
+    "eslint": "5.16.0",
     "eslint-config-adidas-env": "1.1.0",
-    "eslint-config-adidas-es7": "1.1.0",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-promise": "4.0.1",
+    "eslint-config-adidas-es9": "1.1.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-promise": "4.2.1",
     "lerna": "2.11.0",
     "node-notifier": "5.4.0"
   },

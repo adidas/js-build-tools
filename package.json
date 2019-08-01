@@ -17,7 +17,7 @@
   },
   "scripts": {
     "setup": "npm run lerna:bootstrap",
-    "lerna:bootstrap": "lerna init && lerna bootstrap",
+    "lerna:bootstrap": "lerna bootstrap",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- node \\$LERNA_ROOT_PATH/scripts/publish.js",
     "reinstall:examples": "node scripts/reinstall-examples",

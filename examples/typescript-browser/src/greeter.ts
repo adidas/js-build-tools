@@ -1,7 +1,7 @@
 export class Greeter {
-  constructor(public name: string) {}
+  public constructor(public name: string) {}
 
-  greet() {
+  public greet(): string {
     return `Hello, ${ this.name }`;
   }
 }

@@ -1,3 +1,8 @@
+# 1.2.0
+
+- Updated ESLint version.
+- Updated eslint-config-adidas versions.
+
 ## 1.1.1
 
 - Updated ESLint and JSDoc version.

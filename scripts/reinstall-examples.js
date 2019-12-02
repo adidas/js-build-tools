@@ -20,7 +20,7 @@ examplesSuite.forEach((dir) => {
   process.stdout.write(`Reinstalling ${ bold(blue(dir)) }... `);
 
   const { status: rmStatus } = spawnSync('rm', [ '-rf', 'node_modules', 'package-lock.json' ], options);
-  const { status: installStatus } = spawnSync('npm', [ 'install' ], options);
+  const { status: installStatus } = spawnSync('npm', [ 'install', '--no-package-lock' ], options);
 
   process.stdout.write(bold(rmStatus || installStatus ? red('nok') : green('ok')));
   nl();

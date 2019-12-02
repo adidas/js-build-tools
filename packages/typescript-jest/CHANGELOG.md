@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated ts-jest to v24.2.
+
 ## 1.1.1
 
 - Updated TSJest dependencies.

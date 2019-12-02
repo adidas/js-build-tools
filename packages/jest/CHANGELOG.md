@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated jest to v24.9.
+
 # 1.1.0
 
 - Updated jest to v24.

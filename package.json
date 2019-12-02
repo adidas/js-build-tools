@@ -1,6 +1,6 @@
 {
   "name": "js-build-tools",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "adidas configurations for JavaScript tooling",
   "license": "MIT",
   "contributors": [
@@ -17,23 +17,25 @@
   },
   "scripts": {
     "setup": "npm run lerna:bootstrap",
-    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:init": "lerna init",
+    "lerna:bootstrap": "lerna bootstrap --no-ci",
     "lerna:exec": "lerna exec",
-    "lerna:publish": "lerna exec -- node \\$LERNA_ROOT_PATH/scripts/publish.js",
+    "lerna:publish": "lerna exec -- safe-publish",
     "reinstall:examples": "node scripts/reinstall-examples",
     "run:examples": "node scripts/run-examples",
     "lint": "eslint scripts packages",
     "examples": "npm run reinstall:examples && npm run run:examples"
   },
   "devDependencies": {
-    "chalk": "2.4.1",
-    "eslint": "5.16.0",
-    "eslint-config-adidas-env": "1.1.0",
-    "eslint-config-adidas-es9": "1.1.0",
+    "chalk": "3.0.0",
+    "eslint": "6.6.0",
+    "eslint-config-adidas-env": "1.2.0",
+    "eslint-config-adidas-es9": "1.2.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-promise": "4.2.1",
-    "lerna": "2.11.0",
-    "node-notifier": "5.4.0"
+    "lerna": "3.19.0",
+    "node-notifier": "6.0.0",
+    "safe-publish": "1.2.0"
   },
   "keywords": [
     "shareable-config",

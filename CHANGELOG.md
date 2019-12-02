@@ -1,3 +1,9 @@
+## 1.0.5
+
+- Replaced publish script by safe-publish.
+- Updated lerna to v3.
+- Updated dependencies for housekeeping.
+
 ## 1.0.4
 
 - Replaced TSLint with ESLint TypeScript.

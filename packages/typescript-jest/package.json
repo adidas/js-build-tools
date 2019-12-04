@@ -1,6 +1,6 @@
 {
   "name": "build-tools-typescript-jest",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Configurations to use jest with typescript",
   "main": "./jest-preset.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "@types/jest": "~24.0.16",
-    "ts-jest": "~24.0.2"
+    "@types/jest": "~24.0.23",
+    "ts-jest": "~24.2.0"
   }
 }

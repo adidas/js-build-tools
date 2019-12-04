@@ -3,6 +3,9 @@
     "adidas-es5",
     "adidas-env/browser"
   ],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   "rules": {
     "no-var": "off",
     "one-var": ["error", {

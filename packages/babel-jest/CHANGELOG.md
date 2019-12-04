@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated babel-jest.
+
 # 1.1.0
 
 - Updated babel-jest.

@@ -5,7 +5,7 @@ const webpack = require('webpack');
  * @returns {string} Release date.
  */
 function getReleaseDate() {
-  return (new Date()).toLocaleDateString('en-en', {
+  return new Date().toLocaleDateString('en-en', {
     weekday: 'long',
     year: 'numeric',
     month: 'short',

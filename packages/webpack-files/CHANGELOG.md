@@ -1,6 +1,7 @@
 # 1.2.0
 
-- Added JSON, SVG, and YAML loaders.
+- Added JSON and YAML loaders.
+- Moved SVG loader from `fonts` loaders file to a new `svg` loader file.
 
 # 1.1.0
 

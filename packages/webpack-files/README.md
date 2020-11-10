@@ -42,6 +42,15 @@ module.exports = {
 };
 ```
 
+### List of loaders:
+
+- Fonts: `woff`, `woff2`, `ttf`, `eot`.
+- HTML: `html`.
+- Images: `png`, `jpg`, `gif`.
+- JSON: `json`.
+- SVG: `svg`.
+- YAML: `yaml`.
+
 ## Documentation
 
 - [Base configuration](https://github.com/adidas/js-build-tools/tree/master/packages/build-tools-webpack)

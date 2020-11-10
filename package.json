@@ -1,6 +1,6 @@
 {
   "name": "js-build-tools",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "adidas configurations for JavaScript tooling",
   "license": "MIT",
   "contributors": [
@@ -19,7 +19,7 @@
     "setup": "lerna bootstrap --no-ci",
     "setup:ci": "lerna bootstrap --ci",
     "lerna:exec": "lerna exec",
-    "lerna:publish": "lerna exec -- safe-publish --registry=http://localhost:8081/repository/npm-private/",
+    "lerna:publish": "lerna exec -- safe-publish",
     "lint": "eslint scripts packages",
     "run:examples": "node scripts/run-examples",
     "reinstall:examples": "node scripts/reinstall-examples"

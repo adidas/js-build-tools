@@ -2,7 +2,9 @@
   "name": "sass-extract",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "npm run build:dev && npm run build:pro",
+    "build:dev": "webpack",
+    "build:pro": "cross-env NODE_ENV=production webpack",
     "clean": "rimraf dist",
     "all": "npm run clean && npm run build"
   },
@@ -10,5 +12,10 @@
     "build-tools-common": "^1",
     "build-tools-webpack": "^1",
     "build-tools-webpack-sass": "^1"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
+  ]
 }

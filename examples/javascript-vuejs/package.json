@@ -12,14 +12,14 @@
     "vue": "~2.6.10"
   },
   "devDependencies": {
-    "build-tools-babel": "~1.2.0",
-    "build-tools-common": "~1.0.2",
-    "build-tools-javascript": "~1.2.0",
-    "build-tools-webpack": "~1.1.1",
-    "build-tools-webpack-babel": "~1.0.1",
-    "build-tools-webpack-files": "~1.1.0",
-    "build-tools-webpack-sass": "~1.1.0",
-    "build-tools-webpack-vue": "~1.1.0",
+    "build-tools-babel": "^1",
+    "build-tools-common": "^1",
+    "build-tools-javascript": "^1",
+    "build-tools-webpack": "^1",
+    "build-tools-webpack-babel": "^1",
+    "build-tools-webpack-files": "^1",
+    "build-tools-webpack-sass": "^1",
+    "build-tools-webpack-vue": "^1",
     "eslint-config-adidas-vue": "~1.3.0",
     "eslint-plugin-vue": "~6.0.1"
   }

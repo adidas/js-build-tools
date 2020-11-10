@@ -7,8 +7,8 @@
     "all": "npm run clean && npm run build"
   },
   "devDependencies": {
-    "build-tools-common": "~1.0.2",
-    "build-tools-webpack": "~1.1.1",
-    "build-tools-webpack-sass": "~1.1.0"
+    "build-tools-common": "^1",
+    "build-tools-webpack": "^1",
+    "build-tools-webpack-sass": "^1"
   }
 }

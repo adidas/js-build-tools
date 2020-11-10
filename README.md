@@ -23,7 +23,7 @@ This repository contains different configurations which are independent packages
 - In development mode (dependencies of the main package):
     ```
     npm install
-    npm run lerna:bootstrap
+    npm run setup
     ```
 - Install a specific package in production mode (installation of each configuration):
     ```
@@ -34,7 +34,7 @@ The required dependencies of each package are listed in their own `package.json`
 
 Specific instructions about how to use the configurations are placed in the `README.md` file of each package.
 
-## Running the examples
+## Running the examples locally
 
 Running the examples with unpublished packages is not as simple as linking packages via file paths, since npm >= 5 does not link binaries correctly.
 

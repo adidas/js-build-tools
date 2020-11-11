@@ -1,3 +1,8 @@
+# 1.4.0
+
+- Updated typescript to v3.9.
+- Updated typedoc to v0.19.
+
 # 1.3.0
 
 - Updated typescript to v3.7.

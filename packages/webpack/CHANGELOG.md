@@ -1,6 +1,7 @@
-## 1.1.2
+# 1.2.0
 
 - Updated webpack to v4.44 and webpack-cli and webpack-dev-server
+- Replaced `loaders` exported property with `resolveLoader` to match webpack configuration property name.
 
 ## 1.1.1
 

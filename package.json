@@ -17,7 +17,6 @@
   },
   "scripts": {
     "setup": "lerna bootstrap --no-ci",
-    "setup:ci": "lerna bootstrap --ci",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- safe-publish",
     "lint": "eslint scripts packages",

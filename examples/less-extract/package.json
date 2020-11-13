@@ -2,13 +2,20 @@
   "name": "less-extract",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "npm run build:dev && npm run build:pro",
+    "build:dev": "webpack",
+    "build:pro": "cross-env NODE_ENV=production webpack",
     "clean": "rimraf dist",
     "all": "npm run clean && npm run build"
   },
   "devDependencies": {
-    "build-tools-common": "~1.0.2",
-    "build-tools-webpack": "~1.1.1",
-    "build-tools-webpack-less": "~1.1.0"
-  }
+    "build-tools-common": "^1",
+    "build-tools-webpack": "^1",
+    "build-tools-webpack-less": "^1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
+  ]
 }

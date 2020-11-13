@@ -9,7 +9,7 @@
     "all": "npm run clean && npm run lint && npm run test && npm run doc"
   },
   "devDependencies": {
-    "build-tools-javascript": "~1.2.0",
-    "build-tools-jest": "~1.2.0"
+    "build-tools-javascript": "^1",
+    "build-tools-jest": "^1"
   }
 }

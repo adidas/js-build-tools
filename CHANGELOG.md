@@ -1,3 +1,10 @@
+## 1.0.6
+
+- Added PostCSS and autoprefixer to webpack-less and webpack-sass packages.
+- Updated webpack and webpack loaders dependencies.
+- Updated version of example dependencies.
+- Replaced example installation scripts with Lerna setup.
+
 ## 1.0.5
 
 - Replaced publish script by safe-publish.

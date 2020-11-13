@@ -3,8 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const isProduction = process.env.NODE_ENV === 'production';
 
 const plugin = new MiniCssExtractPlugin({
-  filename: isProduction ? '[name].min.css' : '[name].css',
-  disable: !isProduction
+  filename: isProduction ? '[name].min.css' : '[name].css'
 });
 
 const rules = [
@@ -13,6 +12,7 @@ const rules = [
     use: [
       isProduction ? MiniCssExtractPlugin.loader : 'style-loader',
       'css-loader',
+      'postcss-loader',
       'sass-loader'
     ]
   }

@@ -1,3 +1,7 @@
+# 1.3.0
+
+- Updated ts-loader to v7.
+
 # 1.2.0
 
 - Updated ts-loader to v6.

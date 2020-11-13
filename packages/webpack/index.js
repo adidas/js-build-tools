@@ -5,5 +5,5 @@ module.exports = {
   createBanner: require('./banner').createBanner,
   devServer: require('./devserver').devServer,
   extensions: require('./extensions').extensions,
-  loaders: require('./loaders').resolveLoader
+  resolveLoader: require('./resolve-loader').resolveLoader
 };

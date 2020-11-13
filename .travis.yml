@@ -8,7 +8,7 @@ install:
 
 script:
 - npm run lint
-- npm run lerna:bootstrap
+- npm run setup
 - npm run lerna:exec -- cp ../../LICENSE .
 
 deploy:

@@ -31,7 +31,7 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-promise": "4.2.1",
     "lerna": "3.22.1",
-    "node-notifier": "6.0.0",
+    "node-notifier": "8.0.1",
     "safe-publish": "1.2.1"
   },
   "keywords": [

@@ -40,6 +40,13 @@ Running the examples with unpublished packages is not as simple as linking packa
 
 Our recommended approach is to run an instance of [nexus](https://www.sonatype.com/download-oss-sonatype) as private registry, you can read more [here](https://github.com/adidas/js-build-tools/wiki/Running-examples).
 
+A `docker-compose.yml` file is provided for quick setup, just run:
+
+```
+cp .npmrc.nexus .npmrc
+docker-compose up
+```
+
 ## FAQ
 
 ### Maintainers

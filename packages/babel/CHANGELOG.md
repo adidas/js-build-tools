@@ -1,3 +1,12 @@
+# 1.3.0
+
+- Added `core-js@3` and `regenerator-runtime@0.13`.
+- Updated `babel` and related dependencies semver to v7.
+- Updated `eslint-config-adidas-babel`.
+- Updated engines to node >= 12 and npm >= 6.
+- Replaced `babel-eslint` by `@babel/eslint-parser@7`.
+- Removed `@babel/polyfill`.
+
 # 1.2.0
 
 - Updated babel to v7.7 and related dependencies.

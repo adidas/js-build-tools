@@ -1,6 +1,6 @@
 {
   "name": "js-build-tools",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "adidas configurations for JavaScript tooling",
   "license": "MIT",
   "contributors": [
@@ -12,26 +12,29 @@
     "url": "https://github.com/adidas/js-build-tools.git"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": ">= 12",
+    "npm": ">= 6"
   },
   "scripts": {
     "setup": "lerna bootstrap --no-ci",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- safe-publish",
+    "lerna:publish:dev": "npm run lerna:publish -- --registry=http://localhost:8081/repository/npm-private",
     "lint": "eslint scripts packages",
     "run:examples": "node scripts/run-examples",
-    "reinstall:examples": "node scripts/reinstall-examples"
+    "reinstall:examples": "node scripts/reinstall-examples",
+    "examples": "npm run reinstall:examples && npm run run:examples"
   },
   "devDependencies": {
-    "chalk": "3.0.0",
-    "eslint": "6.8.0",
-    "eslint-config-adidas-env": "1.2.0",
-    "eslint-config-adidas-es9": "1.2.0",
+    "chalk": "4.1.0",
+    "eslint": "7.18.0",
+    "eslint-config-adidas-env": "1.3.0",
+    "eslint-config-adidas-es9": "1.3.1",
     "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "lerna": "3.22.1",
-    "node-notifier": "6.0.0",
+    "node-notifier": "9.0.0",
     "safe-publish": "1.2.1"
   },
   "keywords": [

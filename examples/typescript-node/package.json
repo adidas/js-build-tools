@@ -5,8 +5,9 @@
     "build": "tsc",
     "test": "jest --config jest.config.js",
     "lint": "eslint --ext .ts src/",
+    "doc": "typedoc --out docs --readme none src/index.ts",
     "clean": "rimraf dist && rimraf test/results",
-    "all": "npm run clean && npm run build && npm run lint && npm run test"
+    "all": "npm run clean && npm run build && npm run lint && npm run doc && npm run test"
   },
   "devDependencies": {
     "build-tools-common": "^1",

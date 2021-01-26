@@ -1,0 +1,4 @@
+registry=http://localhost:8081/repository/npm-virtual/
+email=admin@example.com
+_auth=YWRtaW46YWRtaW4xMjM=
+always-auth=true

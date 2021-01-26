@@ -20,7 +20,7 @@ Extend your `tsconfig.json` with `build-tools-typescript`:
 
 ```json
 {
-  "extends": "./node_modules/build-tools-typescript/tsconfig.json",
+  "extends": "build-tools-typescript",
   "compilerOptions": {
     "outDir": "dist"
   },

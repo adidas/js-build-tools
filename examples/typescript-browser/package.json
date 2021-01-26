@@ -6,7 +6,7 @@
     "dev": "webpack-dev-server --open --hot",
     "test": "jest --config jest.config.js",
     "lint": "eslint --ext .ts src/",
-    "doc": "typedoc --out docs",
+    "doc": "typedoc --out docs --readme none src/index.ts",
     "clean": "rimraf dist && rimraf test/results && rimraf docs",
     "all": "npm run clean && npm run build && npm run lint && npm run doc && npm run test"
   },

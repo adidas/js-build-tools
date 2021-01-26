@@ -1,6 +1,6 @@
 {
   "name": "build-tools-common",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Add common usage tools",
   "license": "MIT",
   "contributors": [
@@ -12,11 +12,11 @@
     "url": "https://github.com/adidas/js-build-tools.git"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": ">= 12",
+    "npm": ">= 6"
   },
   "dependencies": {
-    "cross-env": "~6.0.0",
-    "rimraf": "~3.0.0"
+    "cross-env": "^7",
+    "rimraf": "^3"
   }
 }

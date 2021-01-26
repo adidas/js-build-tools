@@ -1,3 +1,9 @@
+# 1.3.0
+
+- Updated ESLint version.
+- Updated `eslint-config-adidas-*`, `eslint-plugin-*`, `ink-docstrap` and `jsdoc` semver.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.2.0
 
 - Updated ESLint version.

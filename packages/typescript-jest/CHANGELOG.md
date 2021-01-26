@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated ts-jest and @types/jest to v26.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.2.0
 
 - Updated ts-jest to v24.2.

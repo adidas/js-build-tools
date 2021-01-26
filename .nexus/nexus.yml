@@ -1,0 +1,52 @@
+security:
+  anonymousAccess: true
+  pruneUsers: true
+  users:
+  - username: anonymous
+    firstName: Anonymous
+    lastName: User
+    password: anonymous
+    updateExistingPassword: true
+    email: anonymous@example.org
+    roles:
+      - source: ""
+        role: nx-anonymous
+  - username: admin
+    firstName: Administrator
+    lastName: User
+    password: admin123
+    updateExistingPassword: true
+    email: admin@example.org
+    roles:
+    - source: ""
+      role: nx-admin
+repository:
+  pruneRepositories: true
+  repositories:
+  - name: npm-private
+    online: true
+    recipeName: npm-hosted
+    attributes:
+      storage:
+        blobStoreName: default
+        strictContentTypeValidation: true
+        writePolicy: ALLOW
+  - name: npm-proxy
+    online: true
+    recipeName: npm-proxy
+    attributes:
+      proxy:
+        remoteUrl: https://registry.npmjs.org
+      storage:
+        blobStoreName: default
+        strictContentTypeValidation: true
+  - name: npm-virtual
+    online: true
+    recipeName: npm-group
+    attributes:
+      storage:
+        blobStoreName: default
+      group:
+        memberNames:
+        - "npm-private"
+        - "npm-proxy"

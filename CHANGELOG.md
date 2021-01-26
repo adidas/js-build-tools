@@ -1,3 +1,18 @@
+## 1.0.7
+
+- Added `.npmrc.nexus`, `Dockerfile`, `nexus.yml` and `docker-compose.yml` for quick nexus setup.
+- Updated `.eslintrc` files in examples to use `"root": true`.
+- Updated doc script for `typescript-node` and `typescript-browser` examples.
+- Updated `reinstall-examples.js` to always use nexus `.npmrc`.
+- Updated packages:
+  - `babel`
+  - `babel-jest`
+  - `common`
+  - `javascript`
+  - `jest`
+  - `typescript`
+  - `typescript-jest`
+
 ## 1.0.6
 
 - Added PostCSS and autoprefixer to webpack-less and webpack-sass packages.

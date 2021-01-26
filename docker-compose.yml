@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nexus:
+    build: '.nexus'
+    ports:
+    - 8081:8081
+    volumes:
+    - .nexus/nexus.yml:/opt/nexus.yml

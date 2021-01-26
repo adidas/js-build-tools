@@ -1,3 +1,11 @@
+# 1.5.0
+
+- Updated typescript to v4.
+- Updated ESLint version.
+- Updated `eslint-config-adidas-*` and `eslint-plugin-*` semver.
+- Updated typedoc to v0.20. **NOTE**: Typedoc now requires an entry as an argument `typedoc src/index.ts`
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.4.0
 
 - Updated typescript to v3.9.

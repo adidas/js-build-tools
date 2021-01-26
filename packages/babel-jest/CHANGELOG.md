@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated `babel-jest` to v26.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.2.0
 
 - Updated babel-jest.

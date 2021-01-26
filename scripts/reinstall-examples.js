@@ -1,12 +1,13 @@
 const { join } = require('path');
-const { readdirSync } = require('fs');
+const { readdirSync, copyFileSync } = require('fs');
 const { spawnSync } = require('child_process');
 const notifier = require('node-notifier');
 const { red, green, blue, bold } = require('chalk');
 
 const nl = () => process.stdout.write('\n');
 
-const examplesDir = join(__dirname, '..', 'examples');
+const rootDir = join(__dirname, '..');
+const examplesDir = join(rootDir, 'examples');
 const examplesSuite = readdirSync(examplesDir);
 
 notifier.notify({
@@ -15,10 +16,12 @@ notifier.notify({
 });
 
 examplesSuite.forEach((dir) => {
-  const options = { cwd: join(examplesDir, dir) };
+  const exampleDir = join(examplesDir, dir);
+  const options = { cwd: exampleDir };
 
   process.stdout.write(`Reinstalling ${ bold(blue(dir)) }... `);
 
+  copyFileSync(join(rootDir, '.npmrc.nexus'), join(exampleDir, '.npmrc'), options);
   const { status: rmStatus } = spawnSync('rm', [ '-rf', 'node_modules', 'package-lock.json' ], options);
   const { status: installStatus } = spawnSync('npm', [ 'install', '--no-package-lock' ], options);
 

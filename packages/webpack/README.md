@@ -41,7 +41,7 @@ In order to toggle this configuration, `NODE_ENV` must be set to `production`.
 Aside from common configurations, `webpack-dev-server` is available, you can run it as you would normally do, e.g:
 
 ```
-npx webpack-dev-server --open --hot
+npx webpack serve --open --hot
 ```
 
 ### banner

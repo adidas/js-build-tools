@@ -1,3 +1,9 @@
+# 1.2.0
+
+- Updated vue-loader to v15.9.
+- Updated vue, vue-style-loader and vue-template-compiler semver to match newer patches.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.1.0
 
 - Added plugin entry with VueLoaderPlugin instance.

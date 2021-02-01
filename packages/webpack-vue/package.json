@@ -1,6 +1,6 @@
 {
   "name": "build-tools-webpack-vue",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Configurations to use webpack with Vue",
   "main": "./index.js",
   "license": "MIT",
@@ -13,15 +13,15 @@
     "url": "https://github.com/adidas/js-build-tools.git"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": ">= 12",
+    "npm": ">= 6"
   },
   "peerDependencies": {
-    "vue": "~2.6.10"
+    "vue": "~2.6"
   },
   "dependencies": {
-    "vue-loader": "~15.7.0",
-    "vue-style-loader": "~4.1.2",
-    "vue-template-compiler": "~2.6.10"
+    "vue-loader": "~15.9",
+    "vue-style-loader": "~4.1",
+    "vue-template-compiler": "~2.6"
   }
 }

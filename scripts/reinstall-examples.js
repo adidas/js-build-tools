@@ -21,9 +21,18 @@ examplesSuite.forEach((dir) => {
 
   process.stdout.write(`Reinstalling ${ bold(blue(dir)) }... `);
 
-  copyFileSync(join(rootDir, '.npmrc.nexus'), join(exampleDir, '.npmrc'), options);
+  copyFileSync(join(rootDir, '.npmrc.nexus'), join(exampleDir, '.npmrc'));
   const { status: rmStatus } = spawnSync('rm', [ '-rf', 'node_modules', 'package-lock.json' ], options);
-  const { status: installStatus } = spawnSync('npm', [ 'install', '--no-package-lock' ], options);
+  const { status: installStatus } = spawnSync(
+    'npm',
+    [ 'install', '--no-package-lock' ],
+    {
+      ...options,
+      env: {
+        PATH: process.env.PATH
+      }
+    }
+  );
 
   process.stdout.write(bold(rmStatus || installStatus ? red('nok') : green('ok')));
   nl();

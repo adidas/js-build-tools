@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --open --hot",
+    "dev": "webpack serve --open --hot",
     "lint": "eslint --ext .js,.vue src",
     "clean": "rimraf dist",
     "all": "npm run clean && npm run build && npm run lint"

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --open --hot",
+    "dev": "webpack serve --open --hot",
     "test": "jest --config jest.config.js",
     "clean": "rimraf dist && rimraf test/results",
     "all": "npm run clean && npm run build && npm run test"

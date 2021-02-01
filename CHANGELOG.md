@@ -1,3 +1,15 @@
+## 1.0.8
+
+- Updated packages:
+  - `webpack`
+  - `webpack-babel`
+  - `webpack-files`
+  - `webpack-less`
+  - `webpack-sass`
+  - `webpack-typescript`
+  - `webpack-vue`
+- Fixed issues with spawn npm install on node 14.
+
 ## 1.0.7
 
 - Added `.npmrc.nexus`, `Dockerfile`, `nexus.yml` and `docker-compose.yml` for quick nexus setup.

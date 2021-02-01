@@ -1,3 +1,9 @@
+# 1.3.0
+
+- Updated webpack to v5 and webpack-cli to v4.
+- Updated glob and webpack-dev-server semver to match newer patches. **Note**: `webpack-dev-server` is now used through webpack-cli as `webpack serve`.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.2.0
 
 - Updated webpack to v4.44 and webpack-cli and webpack-dev-server

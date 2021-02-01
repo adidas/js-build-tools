@@ -1,3 +1,8 @@
+# 1.4.0
+
+- Updated ts-loader to v8.0.
+- Updated engines to node >= 12 and npm >= 6.
+
 # 1.3.0
 
 - Updated ts-loader to v7.
